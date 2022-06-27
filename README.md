@@ -18,10 +18,16 @@
 Wide Screen 
 ![Screenshot_1](https://user-images.githubusercontent.com/88289155/175867406-c3001975-81fd-4de7-bd99-42cdee01a2ff.jpg)
 
+Project Grid With Text/Buttons
+![image](https://user-images.githubusercontent.com/88289155/175867768-f22b5f05-aefb-4a68-aca5-424e2c0c12b0.png)
+
+
 Responsive-1
+
 ![Screenshot_2](https://user-images.githubusercontent.com/88289155/175867405-7898cdbe-d36a-422c-8b6a-416b96b7351f.jpg)
 
 responsive-2
+
 ![Screenshot_3](https://user-images.githubusercontent.com/88289155/175867404-1dc6c27d-17c1-4fc6-a0b0-f205b1df6f57.jpg)
 
 
