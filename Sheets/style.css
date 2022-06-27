@@ -24,6 +24,27 @@ body {
   }
 }
 
+@media (max-width: 700px) {
+  #projImg {
+    width: 150px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 1420px) {
+  #projImg {
+    width: 240px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 900px) {
+  #projImg {
+    width: 140px;
+    height: 150px;
+  }
+}
+
 .align-items-center {
   align-items: center !important;
 }
@@ -131,6 +152,7 @@ ul.social.list-inline {
   float: left;
   width: 30%;
   padding: 0 21px;
+  margin-top: 20px;
 }
 
 /* Remove extra left and right margins, due to padding */
@@ -145,9 +167,22 @@ ul.social.list-inline {
   clear: both;
 }
 
+#projImg {
+  border-radius: 20px;
+}
+
+#projImg:hover {
+  opacity: 0.7;
+}
+
 /* Responsive columns */
 @media screen and (max-width: 600px) {
   .columnP {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  #co {
     width: 100%;
     display: block;
     margin-bottom: 20px;
@@ -184,5 +219,39 @@ button:hover {
 /*Grid Ends*/
 
 /*About Styling Starts*/
+.about {
+  margin-top: 20px;
+}
+.columnAL {
+  float: left;
+  width: 60%;
+  padding: 0 6px;
+  margin-top: 20px;
+}
 
+.columnAR {
+  float: right;
+  width: 30%;
+  padding: 0 6px;
+  margin-top: 20px;
+}
+
+.cardA {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  color: white;
+  background-color: #232323;
+  /* border: 1px dashed #C69200; */
+  border-radius: 5px;
+}
+
+.cardA > h2 {
+  text-align: left;
+  font-weight: bold;
+}
+
+.cardA > p {
+  text-align: left;
+}
 /*About Styling Ends*/
